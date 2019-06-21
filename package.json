@@ -1,0 +1,22 @@
+{
+  "name": "gradient-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sassylemon/gradient-gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sassylemon/gradient-gen/issues"
+  },
+  "homepage": "https://github.com/sassylemon/gradient-gen#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}

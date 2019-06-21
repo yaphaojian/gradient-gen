@@ -1,9 +1,11 @@
+var _ = require('lodash');
+
+
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.querySelector("body");
 var randomBtn = document.querySelector(".randomBtn");
-var directionBtn = document.querySelector(".direction");
 
 function setGradient() {
 	body.style.background = 
@@ -29,6 +31,8 @@ function randomize() {
 color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
+
+window.onload = setGradient;
 
 randomBtn.addEventListener("click", randomize);
 
