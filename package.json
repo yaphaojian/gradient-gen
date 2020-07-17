@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sassylemon/gradient-gen#readme",
   "dependencies": {
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.19"
   }
 }
